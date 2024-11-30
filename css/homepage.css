@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --firstColor: #152553;
+  --secondColor: #3c88f8;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header logo and menu section start */
+.header-area {
+  padding: 20px;
+}
+.menuarea li a {
+  text-decoration: none;
+  color: var(--firstColor);
+  padding: 20px;
+}
+
+.menuarea ul {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0 0;
+}
+
+.menuarea li {
+  display: inline-block;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.menuarea li:hover a {
+  color: var(--secondColor);
+}
+
+.header-area .col-md-6 {
+  padding: 0;
+}
+
+/* Header logo and menu section end */
+/* Team Member Details Section */
+
+.member-image img {
+  width: 120px; /* Fixed width for smaller size */
+  height: 120px; /* Fixed height for smaller size */
+  border-radius: 50%; /* Makes the image round */
+  border: 3px solid #fff; /* Adds a border around the image */
+  object-fit: cover; /* Ensures the image covers the entire area without distortion */
+  margin-bottom: 15px;
+}
+
+.member-details h4 {
+  color: var(--firstColor);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.member-details p {
+  font-size: 14px;
+  color: var(--firstColor);
+  margin: 5px 0;
+}
+
+/* Home banner section start */
+.banner-title {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.banner-title h2 {
+  color: var(--firstColor);
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.banner-title span {
+  color: var(--secondColor);
+  padding-top: 15px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.banner-heading p {
+  color: var(--firstColor);
+  line-height: 1.8;
+}
+
+.banner-image {
+  text-align: center;
+  max-width: 100%;
+  margin-top: 50px;
+}
+/* Home banner section end  */
+
+/*  Project idea features area start */
+.project-left h2 {
+  color: #df626b;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.project-left p {
+  line-height: 1.5;
+}
+
+.project-right h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.project-area {
+  margin: 50px 0;
+}
+/*  Project idea features area end */
+
+/* project types blog start */
+.projects {
+  overflow: hidden;
+  margin: 50px 0;
+}
+
+.projects .float-left {
+  float: left;
+  display: block;
+}
+
+.single-service-items {
+  margin: 20px;
+  transition: 0.3s ease;
+}
+.single-service-items:hover {
+  box-shadow: 0 0 10px #ddd;
+}
+
+.single-background-wrap1 {
+  background: #faecec;
+}
+
+.single-background-wrap2 {
+  background: #eef8f4;
+}
+
+.single-background-wrap3 {
+  background: #fef7e9;
+}
+
+.single-image-area {
+  padding: 40px;
+}
+
+.project-content {
+  padding: 20px 0;
+  margin-left: 30px;
+}
+
+.project-content h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.project-content p {
+  font-size: 15px;
+}
+.single-image-area img {
+  max-width: 200px;
+}
+
+.single-image-area {
+  text-align: center;
+}
+/* project types blog start */
+
+/* footer area start */
+.footer-area {
+  background: var(--secondColor);
+  color: #a3d0b5;
+  position: absolute;
+  width: 100%;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.footer-area span {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.section-padding {
+  position: relative;
+}
+
+/* footer area end */
+
+/* Company details */
+/* Global Body Styling */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Container Styling */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container h3,
+.container h4 {
+  color: var(--firstColor);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.table thead th {
+  background: var(--secondColor);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.table tbody td {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table .btn {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.table .btn-warning {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+}
+
+.table .btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+.table .btn:hover {
+  opacity: 0.9;
+}
+
+/* Form Styling */
+form {
+  margin-top: 20px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form .form-control {
+  border: 1px solid var(--firstColor);
+  font-size: 14px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+form button {
+  background: var(--secondColor);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: var(--firstColor);
+}
